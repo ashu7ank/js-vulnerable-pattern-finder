@@ -1,7 +1,7 @@
 ##Checks inside of text file given as input containing JS endpoints, evaluates it for problematic JS code, dumps a CSV full of JS endpoints with possible issues.
 ##For input file, feel free to use the results from tools like getJS, gau or waybackurls.
 ## python3 blaze-pp-js-check.py input.txt output.csv --workers '1-10' (be thoughtful while using excessive number of workers)
-##Written by Ashutosh_Kumar
+
 import argparse
 import csv
 import requests
